@@ -2,42 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  
-  </style>
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 
-<img class="presmi" src="./images/image-victor.jpg">
+  <div class="image mustafa1">
+    <img src="./images/bg-pattern-top.svg" alt="">
+  </div>
 
-<section class="profil">
-  <h2>Victor Crest</h2>
-  <p>26</p>
-  <p>London</p>
-</section>
+  <div class="image mustafa2">
+    <img src="./images/bg-pattern-bottom.svg" alt="">
+  </div>
+
+  <div class="card">
+    <img class="card-profile" src="./images/image-victor.jpg" alt="">
+    <img class="card-picture" src="./images/bg-pattern-card.svg" alt="">
+    <div class="card-body">
+      <div class="card-title">
+        <h3 class="text-name">Victor Crest <span class="text-age color-gray">26</span></h3>
+        <p class="text-city color-gray">London</p>
+      </div>
+      <div class="card-content">
+        <div class="card-social">
+          <h5 class="card-numbers">80K</h5>
+          <small class="color-gray">Followers</small>
+        </div>
+        <div class="card-social">
+          <h5 class="card-numbers">803K</h5>
+          <small class="color-gray">Likes</small>
+        </div>
+        <div class="card-social">
+          <h5 class="card-numbers">1.4K</h5>
+          <small class="color-gray">Photos</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-
-
-  
+</div>
+ 
 </body>
 </html>
